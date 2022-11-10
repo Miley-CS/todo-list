@@ -1,0 +1,12 @@
+.left-nav {
+    width: 10vw;
+    height: 100vh;
+    padding-right: 90px;
+    padding-left: 30px;
+    color: gray;
+}
+
+.side-nav {
+    display: flex;
+    font-weight: 700;
+}
