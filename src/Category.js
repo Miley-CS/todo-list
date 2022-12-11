@@ -1,10 +1,10 @@
-function Category() {
+function Category(props) {
     return(
         <div className="category-nav">
-            <h4>Projects</h4>
+            <h4>{props.heading}</h4>
             <ul>
-                <li>???</li>
-                <li>???</li>
+                <li>{props.navItem1}</li>
+                <li>{props.navItem2}</li>
             </ul>
         </div>
     );
