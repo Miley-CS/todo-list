@@ -1,13 +1,12 @@
 import './LeftNav.css';
+import Category from './Category.js';
 
 function LeftNav() {
     return (
         <nav className="left-nav">
-            <h4>Projects</h4>
-            <ul>
-                <li>???</li>
-                <li>???</li>
-            </ul>
+            <Category />
+            <Category />
+            <Category />
             <button className="left-nav-add">+</button>
         </nav>
     )
