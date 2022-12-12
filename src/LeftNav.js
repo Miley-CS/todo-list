@@ -13,12 +13,12 @@ function LeftNav() {
                 heading="personal"
                 navItem1="Books"
                 navItem2="Goals"
-                />
+            />
             <Category
                 heading="shared"
                 navItem1="Story Plot"
                 navItem2="Plans"
-                />
+            />
             <button className="left-nav-add">+</button>
         </nav>
     )
